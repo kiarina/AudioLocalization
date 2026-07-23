@@ -1,0 +1,25 @@
+# Unreal build products and local caches
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Generated IDE files
+.idea/
+.vs/
+.vscode/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj/
+*.xcworkspace/
+
+# Per-user editor configuration
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# OS metadata
+.DS_Store
+Thumbs.db
