@@ -22,7 +22,7 @@ HRTF Listenerの左右PCMから、変化音が現在のカメラ正面に対し�
 - C++ build toolchain（macOSではXcode）
 - Resonance Audio plugin（UE 5.8同梱）
 
-macOS arm64、UE 5.8.0で検証しています。`.uproject`では研究時に使用した
+macOS arm64、UE 5.8.0で検証しています。UE 5.8.3でもC++ build、Automation Test、での起動（10音源とResonance Audio Listenerの初期化）を確認しています。`.uproject`では研究時に使用した
 Unreal MCP関連pluginも有効です。MCPを使用しない場合でも、通常のEditor操作とPIEは可能です。
 
 ## 起動とビルド
